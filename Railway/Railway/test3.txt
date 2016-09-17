@@ -1,5 +1,0 @@
-select a.trainid,a.StartTime,b.EndTime,a.Origin,b.Destination,a.CarType,a.Price 
-from train as a,train as b
-where a.Starttime>'2016-09-09 15:00' and a.Starttime<'2016-09-10'
-and a.trainid=b.trainid and a.origin like '上海%' and b.destination like '北京%'
-order by starttime asc

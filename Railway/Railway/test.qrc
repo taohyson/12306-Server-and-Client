@@ -1,5 +1,0 @@
-<RCC>
-  <qresource prefix="test">
-    <file>Resources/font.jpg</file>
-  </qresource>
-</RCC>
