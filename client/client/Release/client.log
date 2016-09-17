@@ -1,0 +1,99 @@
+﻿Build started 2016/9/12 9:08:09.
+     1>Project "D:\Documents\client\client\client.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         Moc'ing loginwindow.h...
+         Moc'ing adminwindow.h...
+         Moc'ing admin.h...
+         Moc'ing addTrainWindow.h...
+         Moc'ing edittrainwindow.h...
+         Moc'ing connectwindow.h...
+         Moc'ing abstractuser.h...
+         Moc'ing train.h...
+         Moc'ing client.h...
+         Moc'ing user.h...
+         Moc'ing mainwindow.h...
+         Moc'ing registerwindow.h...
+         Uic'ing registerwindow.ui...
+         Uic'ing loginwindow.ui...
+         Rcc'ing loginwindow.qrc...
+         Rcc'ing main.qrc...
+         Uic'ing mainwindow.ui...
+         Uic'ing test.ui...
+         Uic'ing pay.ui...
+         Uic'ing traindetail.ui...
+         Uic'ing mainwindowadmin.ui...
+         Uic'ing addtrain.ui...
+         Uic'ing deletetrain.ui...
+         Uic'ing edittrain.ui...
+         Uic'ing buyother.ui...
+         Uic'ing connect.ui...
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\Qt5.1.0\5.1.0\msvc2012_64_opengl\include /I.\GeneratedFiles\Release /IC:\Qt\Qt5.1.0\5.1.0\msvc2012_64_opengl\include\QtCore /IC:\Qt\Qt5.1.0\5.1.0\msvc2012_64_opengl\include\QtGui /IC:\Qt\Qt5.1.0\5.1.0\msvc2012_64_opengl\include\QtWidgets /IC:\Qt\Qt5.1.0\5.1.0\msvc2012_64_opengl\include\QtNetwork /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /D QT_NETWORK_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt abstractuser.cpp addtrainwindow.cpp admin.cpp adminwindow.cpp connectwindow.cpp edittrainwindow.cpp GeneratedFiles\Release\moc_abstractuser.cpp GeneratedFiles\Release\moc_addTrainWindow.cpp GeneratedFiles\Release\moc_admin.cpp GeneratedFiles\Release\moc_adminwindow.cpp GeneratedFiles\Release\moc_client.cpp GeneratedFiles\Release\moc_connectwindow.cpp GeneratedFiles\Release\moc_edittrainwindow.cpp GeneratedFiles\Release\moc_loginwindow.cpp GeneratedFiles\Release\moc_mainwindow.cpp GeneratedFiles\Release\moc_registerwindow.cpp GeneratedFiles\Release\moc_train.cpp GeneratedFiles\Release\moc_user.cpp loginwindow.cpp main.cpp mainwindow.cpp registerwindow.cpp client.cpp ticket.cpp train.cpp user.cpp
+         abstractuser.cpp
+         addtrainwindow.cpp
+         admin.cpp
+         adminwindow.cpp
+         connectwindow.cpp
+         edittrainwindow.cpp
+         moc_abstractuser.cpp
+         moc_addTrainWindow.cpp
+         moc_admin.cpp
+         moc_adminwindow.cpp
+         moc_client.cpp
+         moc_connectwindow.cpp
+         moc_edittrainwindow.cpp
+         moc_loginwindow.cpp
+         moc_mainwindow.cpp
+         moc_registerwindow.cpp
+         moc_train.cpp
+         moc_user.cpp
+         loginwindow.cpp
+         main.cpp
+         Generating Code...
+         Compiling...
+         mainwindow.cpp
+         registerwindow.cpp
+         client.cpp
+         ticket.cpp
+         train.cpp
+         user.cpp
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\Qt5.1.0\5.1.0\msvc2012_64_opengl\include /I.\GeneratedFiles\Release /IC:\Qt\Qt5.1.0\5.1.0\msvc2012_64_opengl\include\QtCore /IC:\Qt\Qt5.1.0\5.1.0\msvc2012_64_opengl\include\QtGui /IC:\Qt\Qt5.1.0\5.1.0\msvc2012_64_opengl\include\QtWidgets /IC:\Qt\Qt5.1.0\5.1.0\msvc2012_64_opengl\include\QtNetwork /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /D QT_NETWORK_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\qrc_loginwindow.cpp GeneratedFiles\qrc_main.cpp
+         qrc_loginwindow.cpp
+         qrc_main.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Documents\client\Win32\Release\\client.exe" /NOLOGO /LIBPATH:C:\Qt\Qt5.1.0\5.1.0\msvc2012_64_opengl\lib qtmain.lib Qt5Core.lib Qt5Gui.lib Qt5Widgets.lib Qt5Network.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"D:\Documents\client\Win32\Release\client.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Documents\client\Win32\Release\client.lib" /MACHINE:X86 /SAFESEH Release\abstractuser.obj
+         Release\addtrainwindow.obj
+         Release\admin.obj
+         Release\adminwindow.obj
+         Release\connectwindow.obj
+         Release\edittrainwindow.obj
+         Release\qrc_loginwindow.obj
+         Release\qrc_main.obj
+         Release\moc_abstractuser.obj
+         Release\moc_addTrainWindow.obj
+         Release\moc_admin.obj
+         Release\moc_adminwindow.obj
+         Release\moc_client.obj
+         Release\moc_connectwindow.obj
+         Release\moc_edittrainwindow.obj
+         Release\moc_loginwindow.obj
+         Release\moc_mainwindow.obj
+         Release\moc_registerwindow.obj
+         Release\moc_train.obj
+         Release\moc_user.obj
+         Release\loginwindow.obj
+         Release\main.obj
+         Release\mainwindow.obj
+         Release\registerwindow.obj
+         Release\client.obj
+         Release\ticket.obj
+         Release\train.obj
+         Release\user.obj
+     1>Qt5Core.lib(Qt5Core.dll) : fatal error LNK1112: module machine type 'x64' conflicts with target machine type 'X86'
+     1>Done Building Project "D:\Documents\client\client\client.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:32.20

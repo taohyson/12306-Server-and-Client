@@ -1,0 +1,40 @@
+﻿生成启动时间为 2016/9/13 17:10:19。
+     1>项目“E:\TsinghuaCourses\大一暑\c++\大作业\client (3)\client\client\client.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\VS\VC\bin\x86_amd64\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\Qt5.1.0\5.1.0\msvc2012_64_opengl\include /I.\GeneratedFiles\Debug /IC:\Qt\Qt5.1.0\5.1.0\msvc2012_64_opengl\include\QtCore /IC:\Qt\Qt5.1.0\5.1.0\msvc2012_64_opengl\include\QtGui /IC:\Qt\Qt5.1.0\5.1.0\msvc2012_64_opengl\include\QtWidgets /IC:\Qt\Qt5.1.0\5.1.0\msvc2012_64_opengl\include\QtNetwork /Zi /nologo /W1 /WX- /Od /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /D QT_NETWORK_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /Gd /TP /errorReport:prompt client.cpp
+         client.cpp
+       Link:
+         D:\Program Files (x86)\VS\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\TsinghuaCourses\大一暑\c++\大作业\client (3)\client\x64\Debug\\12306.exe" /NOLOGO /LIBPATH:C:\Qt\Qt5.1.0\5.1.0\msvc2012_64_opengl\lib qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5Widgetsd.lib Qt5Networkd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\TsinghuaCourses\大一暑\c++\大作业\client (3)\client\x64\Debug\12306.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\TsinghuaCourses\大一暑\c++\大作业\client (3)\client\x64\Debug\12306.lib" /MACHINE:X64 x64\Debug\abstractuser.obj
+         x64\Debug\addtrainwindow.obj
+         x64\Debug\admin.obj
+         x64\Debug\adminwindow.obj
+         x64\Debug\connectwindow.obj
+         x64\Debug\edittrainwindow.obj
+         x64\Debug\moc_abstractuser.obj
+         x64\Debug\moc_addTrainWindow.obj
+         x64\Debug\moc_admin.obj
+         x64\Debug\moc_adminwindow.obj
+         x64\Debug\moc_client.obj
+         x64\Debug\moc_connectwindow.obj
+         x64\Debug\moc_edittrainwindow.obj
+         x64\Debug\moc_loginwindow.obj
+         x64\Debug\moc_mainwindow.obj
+         x64\Debug\moc_registerwindow.obj
+         x64\Debug\moc_train.obj
+         x64\Debug\moc_user.obj
+         x64\Debug\qrc_loginwindow.obj
+         x64\Debug\qrc_main.obj
+         x64\Debug\loginwindow.obj
+         x64\Debug\main.obj
+         x64\Debug\mainwindow.obj
+         x64\Debug\registerwindow.obj
+         x64\Debug\client.obj
+         x64\Debug\ticket.obj
+         x64\Debug\train.obj
+         x64\Debug\user.obj
+         client.vcxproj -> E:\TsinghuaCourses\大一暑\c++\大作业\client (3)\client\x64\Debug\12306.exe
+     1>已完成生成项目“E:\TsinghuaCourses\大一暑\c++\大作业\client (3)\client\client\client.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.01

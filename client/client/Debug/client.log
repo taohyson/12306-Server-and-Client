@@ -1,0 +1,9 @@
+﻿Build started 2016/8/27 16:18:39.
+     1>Project "D:\Documents\2015(夏) C++\Qt Preview\client\client\client.vcxproj" on node 2 (CustomBuild target(s)).
+     1>CustomBuild:
+         Uic'ing register.ui...
+     1>Done Building Project "D:\Documents\2015(夏) C++\Qt Preview\client\client\client.vcxproj" (CustomBuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.06

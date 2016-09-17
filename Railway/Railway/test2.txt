@@ -1,0 +1,5 @@
+select  *
+from train
+where cartype is not null and origin like '__' and destination like 'G%'
+order by starttime asc
+--group by TrainId 

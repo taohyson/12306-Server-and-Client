@@ -1,0 +1,1585 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1000</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1000</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="font">
+   <font>
+    <family>微软雅黑</family>
+    <pointsize>11</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>12306++铁路票务系统</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTabWidget" name="main">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1001</width>
+      <height>700</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> QTabBar::tab {
+  background: rgb(87,96,105);
+  color: white;
+  padding: 20px;
+  width: 210px;
+ }
+
+ QTabBar::tab:selected {
+  background: rgb(173,195,192);
+ }</string>
+    </property>
+    <property name="tabPosition">
+     <enum>QTabWidget::North</enum>
+    </property>
+    <property name="tabShape">
+     <enum>QTabWidget::Triangular</enum>
+    </property>
+    <property name="currentIndex">
+     <number>3</number>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>20</width>
+      <height>20</height>
+     </size>
+    </property>
+    <property name="elideMode">
+     <enum>Qt::ElideNone</enum>
+    </property>
+    <widget class="QWidget" name="tab">
+     <attribute name="title">
+      <string>预订车票</string>
+     </attribute>
+     <widget class="QLabel" name="label_21">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>40</y>
+        <width>81</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>9</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>出发站</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_22">
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>40</y>
+        <width>81</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>9</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>到达站</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lStart">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>30</y>
+        <width>81</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>9</pointsize>
+       </font>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lDes">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>30</y>
+        <width>81</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>9</pointsize>
+       </font>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_23">
+      <property name="geometry">
+       <rect>
+        <x>310</x>
+        <y>40</y>
+        <width>81</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>9</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>出行日期</string>
+      </property>
+     </widget>
+     <widget class="QDateEdit" name="dDate">
+      <property name="geometry">
+       <rect>
+        <x>380</x>
+        <y>30</y>
+        <width>121</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>9</pointsize>
+       </font>
+      </property>
+      <property name="currentSection">
+       <enum>QDateTimeEdit::YearSection</enum>
+      </property>
+      <property name="displayFormat">
+       <string>yyyy/MM/dd</string>
+      </property>
+      <property name="calendarPopup">
+       <bool>true</bool>
+      </property>
+      <property name="date">
+       <date>
+        <year>2016</year>
+        <month>9</month>
+        <day>12</day>
+       </date>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="bSearch">
+      <property name="geometry">
+       <rect>
+        <x>860</x>
+        <y>30</y>
+        <width>111</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>查询</string>
+      </property>
+     </widget>
+     <widget class="QTableWidget" name="trainTable">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>90</y>
+        <width>981</width>
+        <height>351</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>11</pointsize>
+       </font>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="lineWidth">
+       <number>0</number>
+      </property>
+      <property name="verticalScrollBarPolicy">
+       <enum>Qt::ScrollBarAlwaysOn</enum>
+      </property>
+      <property name="editTriggers">
+       <set>QAbstractItemView::NoEditTriggers</set>
+      </property>
+      <property name="alternatingRowColors">
+       <bool>true</bool>
+      </property>
+      <property name="selectionMode">
+       <enum>QAbstractItemView::SingleSelection</enum>
+      </property>
+      <property name="selectionBehavior">
+       <enum>QAbstractItemView::SelectRows</enum>
+      </property>
+      <property name="showGrid">
+       <bool>false</bool>
+      </property>
+      <attribute name="horizontalHeaderStretchLastSection">
+       <bool>true</bool>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="bBuy">
+      <property name="geometry">
+       <rect>
+        <x>850</x>
+        <y>460</y>
+        <width>121</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>购买</string>
+      </property>
+     </widget>
+     <widget class="QTimeEdit" name="time1">
+      <property name="geometry">
+       <rect>
+        <x>580</x>
+        <y>30</y>
+        <width>61</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>9</pointsize>
+       </font>
+      </property>
+      <property name="displayFormat">
+       <string>HH:mm</string>
+      </property>
+      <property name="time">
+       <time>
+        <hour>8</hour>
+        <minute>0</minute>
+        <second>0</second>
+       </time>
+      </property>
+     </widget>
+     <widget class="QTimeEdit" name="time2">
+      <property name="geometry">
+       <rect>
+        <x>650</x>
+        <y>30</y>
+        <width>61</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>9</pointsize>
+       </font>
+      </property>
+      <property name="displayFormat">
+       <string>HH:mm</string>
+      </property>
+      <property name="time">
+       <time>
+        <hour>20</hour>
+        <minute>0</minute>
+        <second>0</second>
+       </time>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_24">
+      <property name="geometry">
+       <rect>
+        <x>510</x>
+        <y>40</y>
+        <width>81</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>9</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>时间区间</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="bBuyStudent">
+      <property name="geometry">
+       <rect>
+        <x>720</x>
+        <y>460</y>
+        <width>121</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>购买学生票</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_25">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>470</y>
+        <width>471</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>11</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>温馨提示：双击表中的列车可查看途经车站与停站时间</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_26">
+      <property name="geometry">
+       <rect>
+        <x>720</x>
+        <y>40</y>
+        <width>81</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>9</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>列车类型</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="cType">
+      <property name="geometry">
+       <rect>
+        <x>790</x>
+        <y>30</y>
+        <width>61</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+       </font>
+      </property>
+      <item>
+       <property name="text">
+        <string>全部</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>G</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>D</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>T</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>K</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QPushButton" name="bBuyOther">
+      <property name="geometry">
+       <rect>
+        <x>590</x>
+        <y>460</y>
+        <width>121</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>为他人买票</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="lEmpty">
+      <property name="geometry">
+       <rect>
+        <x>350</x>
+        <y>100</y>
+        <width>300</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>15</pointsize>
+        <italic>false</italic>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+	color: rgb(207, 207, 207)
+}</string>
+      </property>
+      <property name="text">
+       <string>这里空空如也…T^T</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_2">
+     <attribute name="title">
+      <string>已购车票</string>
+     </attribute>
+     <widget class="QTableWidget" name="ticketTable">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>981</width>
+        <height>451</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>11</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QTableWidget{ gridline-color : rgba(255, 255, 255, 0)}</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Sunken</enum>
+      </property>
+      <property name="lineWidth">
+       <number>0</number>
+      </property>
+      <property name="verticalScrollBarPolicy">
+       <enum>Qt::ScrollBarAlwaysOn</enum>
+      </property>
+      <property name="horizontalScrollBarPolicy">
+       <enum>Qt::ScrollBarAsNeeded</enum>
+      </property>
+      <property name="autoScroll">
+       <bool>true</bool>
+      </property>
+      <property name="editTriggers">
+       <set>QAbstractItemView::NoEditTriggers</set>
+      </property>
+      <property name="alternatingRowColors">
+       <bool>true</bool>
+      </property>
+      <property name="selectionMode">
+       <enum>QAbstractItemView::SingleSelection</enum>
+      </property>
+      <property name="selectionBehavior">
+       <enum>QAbstractItemView::SelectRows</enum>
+      </property>
+      <property name="showGrid">
+       <bool>false</bool>
+      </property>
+      <property name="gridStyle">
+       <enum>Qt::NoPen</enum>
+      </property>
+      <property name="sortingEnabled">
+       <bool>false</bool>
+      </property>
+      <attribute name="horizontalHeaderVisible">
+       <bool>false</bool>
+      </attribute>
+      <attribute name="horizontalHeaderStretchLastSection">
+       <bool>true</bool>
+      </attribute>
+      <attribute name="verticalHeaderVisible">
+       <bool>false</bool>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="bReturn">
+      <property name="geometry">
+       <rect>
+        <x>760</x>
+        <y>470</y>
+        <width>101</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>退票</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="bRefresh">
+      <property name="geometry">
+       <rect>
+        <x>870</x>
+        <y>470</y>
+        <width>101</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>刷新</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_3">
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+      </font>
+     </property>
+     <attribute name="title">
+      <string>用户信息</string>
+     </attribute>
+     <widget class="QPushButton" name="bEdit">
+      <property name="geometry">
+       <rect>
+        <x>520</x>
+        <y>370</y>
+        <width>151</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+       </font>
+      </property>
+      <property name="text">
+       <string>修改信息</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="bLogout">
+      <property name="geometry">
+       <rect>
+        <x>680</x>
+        <y>370</y>
+        <width>100</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+       </font>
+      </property>
+      <property name="text">
+       <string>退出登录</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="bExit">
+      <property name="geometry">
+       <rect>
+        <x>790</x>
+        <y>370</y>
+        <width>100</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+       </font>
+      </property>
+      <property name="text">
+       <string>退出程序</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lID">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>340</y>
+        <width>191</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+       </font>
+      </property>
+      <property name="readOnly">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_6">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>220</y>
+        <width>72</width>
+        <height>15</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+       </font>
+      </property>
+      <property name="text">
+       <string>姓名</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lSchoolName">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>640</x>
+        <y>190</y>
+        <width>191</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+       </font>
+      </property>
+      <property name="readOnly">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="cGender">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>250</y>
+        <width>71</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+       </font>
+      </property>
+      <property name="editable">
+       <bool>false</bool>
+      </property>
+      <property name="frame">
+       <bool>true</bool>
+      </property>
+      <item>
+       <property name="text">
+        <string>男</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>女</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QComboBox" name="cTType">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>640</x>
+        <y>160</y>
+        <width>121</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+       </font>
+      </property>
+      <item>
+       <property name="text">
+        <string>成人</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>学生</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QLabel" name="label_12">
+      <property name="geometry">
+       <rect>
+        <x>540</x>
+        <y>160</y>
+        <width>72</width>
+        <height>15</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+       </font>
+      </property>
+      <property name="text">
+       <string>旅客类型</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_7">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>190</y>
+        <width>72</width>
+        <height>15</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+       </font>
+      </property>
+      <property name="text">
+       <string>密码</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_8">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>310</y>
+        <width>72</width>
+        <height>15</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+       </font>
+      </property>
+      <property name="text">
+       <string>国家/地区</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lName">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>220</y>
+        <width>191</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+       </font>
+      </property>
+      <property name="readOnly">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_9">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>160</y>
+        <width>72</width>
+        <height>15</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+       </font>
+      </property>
+      <property name="text">
+       <string>用户名</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lUsername">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>160</y>
+        <width>191</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+       </font>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QDateEdit" name="dBirthday">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>280</y>
+        <width>110</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+       </font>
+      </property>
+      <property name="readOnly">
+       <bool>false</bool>
+      </property>
+      <property name="calendarPopup">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lSchoolID">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>640</x>
+        <y>220</y>
+        <width>191</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+       </font>
+      </property>
+      <property name="readOnly">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lPassword">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>190</y>
+        <width>191</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+       </font>
+      </property>
+      <property name="echoMode">
+       <enum>QLineEdit::Password</enum>
+      </property>
+      <property name="readOnly">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_13">
+      <property name="geometry">
+       <rect>
+        <x>540</x>
+        <y>190</y>
+        <width>72</width>
+        <height>15</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+       </font>
+      </property>
+      <property name="text">
+       <string>学校名称</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_11">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>340</y>
+        <width>72</width>
+        <height>15</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+       </font>
+      </property>
+      <property name="text">
+       <string>身份证号</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_14">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>250</y>
+        <width>72</width>
+        <height>15</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+       </font>
+      </property>
+      <property name="text">
+       <string>性别</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_15">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>370</y>
+        <width>72</width>
+        <height>15</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+       </font>
+      </property>
+      <property name="text">
+       <string>手机号码</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lPhone">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>370</y>
+        <width>191</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+       </font>
+      </property>
+      <property name="readOnly">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_16">
+      <property name="geometry">
+       <rect>
+        <x>540</x>
+        <y>220</y>
+        <width>72</width>
+        <height>15</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+       </font>
+      </property>
+      <property name="text">
+       <string>学号</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="cCountry">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>310</y>
+        <width>151</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+       </font>
+      </property>
+      <item>
+       <property name="text">
+        <string>中国</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>其他国家</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QLabel" name="label_17">
+      <property name="geometry">
+       <rect>
+        <x>540</x>
+        <y>120</y>
+        <width>91</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>附加信息</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_18">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>280</y>
+        <width>72</width>
+        <height>15</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+       </font>
+      </property>
+      <property name="text">
+       <string>出生日期</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_19">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>120</y>
+        <width>91</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>基本信息</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="bEditComplete">
+      <property name="geometry">
+       <rect>
+        <x>520</x>
+        <y>370</y>
+        <width>71</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+       </font>
+      </property>
+      <property name="text">
+       <string>完成</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_10">
+      <property name="geometry">
+       <rect>
+        <x>540</x>
+        <y>260</y>
+        <width>81</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>账户信息</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_20">
+      <property name="geometry">
+       <rect>
+        <x>540</x>
+        <y>300</y>
+        <width>72</width>
+        <height>15</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+       </font>
+      </property>
+      <property name="text">
+       <string>余额</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lPay">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>640</x>
+        <y>300</y>
+        <width>101</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+       </font>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="bPay">
+      <property name="geometry">
+       <rect>
+        <x>770</x>
+        <y>300</y>
+        <width>93</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+       </font>
+      </property>
+      <property name="text">
+       <string>充值</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="bEditCancel">
+      <property name="geometry">
+       <rect>
+        <x>600</x>
+        <y>370</y>
+        <width>71</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+       </font>
+      </property>
+      <property name="text">
+       <string>取消</string>
+      </property>
+     </widget>
+     <zorder>bEditCancel</zorder>
+     <zorder>bEditComplete</zorder>
+     <zorder>bEdit</zorder>
+     <zorder>bLogout</zorder>
+     <zorder>bExit</zorder>
+     <zorder>lID</zorder>
+     <zorder>label_6</zorder>
+     <zorder>lSchoolName</zorder>
+     <zorder>cGender</zorder>
+     <zorder>cTType</zorder>
+     <zorder>label_12</zorder>
+     <zorder>label_7</zorder>
+     <zorder>label_8</zorder>
+     <zorder>lName</zorder>
+     <zorder>label_9</zorder>
+     <zorder>lUsername</zorder>
+     <zorder>dBirthday</zorder>
+     <zorder>lSchoolID</zorder>
+     <zorder>lPassword</zorder>
+     <zorder>label_13</zorder>
+     <zorder>label_11</zorder>
+     <zorder>label_14</zorder>
+     <zorder>label_15</zorder>
+     <zorder>lPhone</zorder>
+     <zorder>label_16</zorder>
+     <zorder>cCountry</zorder>
+     <zorder>label_17</zorder>
+     <zorder>label_18</zorder>
+     <zorder>label_19</zorder>
+     <zorder>label_10</zorder>
+     <zorder>label_20</zorder>
+     <zorder>lPay</zorder>
+     <zorder>bPay</zorder>
+    </widget>
+    <widget class="QWidget" name="tab_4">
+     <attribute name="title">
+      <string>关于我们</string>
+     </attribute>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>340</x>
+        <y>120</y>
+        <width>300</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>13</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>12306++铁路票务系统</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>390</x>
+        <y>190</y>
+        <width>200</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>C++程序设计与训练</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>390</x>
+        <y>270</y>
+        <width>200</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>设计者</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>340</x>
+        <y>320</y>
+        <width>300</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>9</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>尹秋阳   yinqy15@mails.tsinghua.edu.cn</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_5">
+      <property name="geometry">
+       <rect>
+        <x>340</x>
+        <y>350</y>
+        <width>300</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>9</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>叶沁媛   yeqy15@mails.tsinghua.edu.cn</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>main</tabstop>
+  <tabstop>lStart</tabstop>
+  <tabstop>lDes</tabstop>
+  <tabstop>dDate</tabstop>
+  <tabstop>time1</tabstop>
+  <tabstop>time2</tabstop>
+  <tabstop>cType</tabstop>
+  <tabstop>bSearch</tabstop>
+  <tabstop>trainTable</tabstop>
+  <tabstop>bBuyOther</tabstop>
+  <tabstop>bBuyStudent</tabstop>
+  <tabstop>bBuy</tabstop>
+  <tabstop>ticketTable</tabstop>
+  <tabstop>bReturn</tabstop>
+  <tabstop>bRefresh</tabstop>
+  <tabstop>bEdit</tabstop>
+  <tabstop>bLogout</tabstop>
+  <tabstop>bExit</tabstop>
+  <tabstop>lID</tabstop>
+  <tabstop>lSchoolName</tabstop>
+  <tabstop>cGender</tabstop>
+  <tabstop>cTType</tabstop>
+  <tabstop>lName</tabstop>
+  <tabstop>lUsername</tabstop>
+  <tabstop>dBirthday</tabstop>
+  <tabstop>lSchoolID</tabstop>
+  <tabstop>lPassword</tabstop>
+  <tabstop>lPhone</tabstop>
+  <tabstop>cCountry</tabstop>
+  <tabstop>bEditComplete</tabstop>
+  <tabstop>lPay</tabstop>
+  <tabstop>bPay</tabstop>
+  <tabstop>bEditCancel</tabstop>
+ </tabstops>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>bEdit</sender>
+   <signal>clicked()</signal>
+   <receiver>bEdit</receiver>
+   <slot>hide()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>541</x>
+     <y>499</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>522</x>
+     <y>499</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>bEdit</sender>
+   <signal>clicked()</signal>
+   <receiver>bEditComplete</receiver>
+   <slot>show()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>572</x>
+     <y>499</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>588</x>
+     <y>447</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>bEdit</sender>
+   <signal>clicked()</signal>
+   <receiver>bEditCancel</receiver>
+   <slot>show()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>596</x>
+     <y>487</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>642</x>
+     <y>447</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>bEditCancel</sender>
+   <signal>clicked()</signal>
+   <receiver>bEditCancel</receiver>
+   <slot>hide()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>657</x>
+     <y>452</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>663</x>
+     <y>451</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>bEditCancel</sender>
+   <signal>clicked()</signal>
+   <receiver>bEditComplete</receiver>
+   <slot>hide()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>652</x>
+     <y>450</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>577</x>
+     <y>444</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>bEditCancel</sender>
+   <signal>clicked()</signal>
+   <receiver>bEdit</receiver>
+   <slot>show()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>634</x>
+     <y>451</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>590</x>
+     <y>494</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

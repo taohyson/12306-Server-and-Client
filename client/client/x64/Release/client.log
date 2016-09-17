@@ -1,0 +1,60 @@
+﻿Build started 2016/9/12 9:21:04.
+     1>Project "D:\Documents\client\client\client.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         Rcc'ing loginwindow.qrc...
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\Qt5.1.0\5.1.0\msvc2012_64_opengl\include /I.\GeneratedFiles\Release /IC:\Qt\Qt5.1.0\5.1.0\msvc2012_64_opengl\include\QtCore /IC:\Qt\Qt5.1.0\5.1.0\msvc2012_64_opengl\include\QtGui /IC:\Qt\Qt5.1.0\5.1.0\msvc2012_64_opengl\include\QtWidgets /IC:\Qt\Qt5.1.0\5.1.0\msvc2012_64_opengl\include\QtNetwork /nologo /W1 /WX- /O2 /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /D QT_NETWORK_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc110.pdb" /Gd /TP /errorReport:prompt GeneratedFiles\Release\moc_admin.cpp GeneratedFiles\Release\moc_adminwindow.cpp GeneratedFiles\Release\moc_loginwindow.cpp GeneratedFiles\Release\moc_mainwindow.cpp GeneratedFiles\Release\moc_registerwindow.cpp addtrainwindow.cpp admin.cpp adminwindow.cpp connectwindow.cpp edittrainwindow.cpp loginwindow.cpp mainwindow.cpp registerwindow.cpp ticket.cpp train.cpp user.cpp
+         moc_admin.cpp
+         moc_adminwindow.cpp
+         moc_loginwindow.cpp
+         moc_mainwindow.cpp
+         moc_registerwindow.cpp
+         addtrainwindow.cpp
+         admin.cpp
+         adminwindow.cpp
+         connectwindow.cpp
+         edittrainwindow.cpp
+         loginwindow.cpp
+         mainwindow.cpp
+         registerwindow.cpp
+         ticket.cpp
+         train.cpp
+         user.cpp
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\Qt5.1.0\5.1.0\msvc2012_64_opengl\include /I.\GeneratedFiles\Release /IC:\Qt\Qt5.1.0\5.1.0\msvc2012_64_opengl\include\QtCore /IC:\Qt\Qt5.1.0\5.1.0\msvc2012_64_opengl\include\QtGui /IC:\Qt\Qt5.1.0\5.1.0\msvc2012_64_opengl\include\QtWidgets /IC:\Qt\Qt5.1.0\5.1.0\msvc2012_64_opengl\include\QtNetwork /nologo /W1 /WX- /O2 /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /D QT_NETWORK_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc110.pdb" /Gd /TP /errorReport:prompt GeneratedFiles\qrc_loginwindow.cpp
+         qrc_loginwindow.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Documents\client\x64\Release\\client.exe" /NOLOGO /LIBPATH:C:\Qt\Qt5.1.0\5.1.0\msvc2012_64_opengl\lib qtmain.lib Qt5Core.lib Qt5Gui.lib Qt5Widgets.lib Qt5Network.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"D:\Documents\client\x64\Release\client.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Documents\client\x64\Release\client.lib" /MACHINE:X64 x64\Release\abstractuser.obj
+         x64\Release\addtrainwindow.obj
+         x64\Release\admin.obj
+         x64\Release\adminwindow.obj
+         x64\Release\connectwindow.obj
+         x64\Release\edittrainwindow.obj
+         x64\Release\qrc_loginwindow.obj
+         x64\Release\qrc_main.obj
+         x64\Release\moc_abstractuser.obj
+         x64\Release\moc_addTrainWindow.obj
+         x64\Release\moc_admin.obj
+         x64\Release\moc_adminwindow.obj
+         x64\Release\moc_client.obj
+         x64\Release\moc_connectwindow.obj
+         x64\Release\moc_edittrainwindow.obj
+         x64\Release\moc_loginwindow.obj
+         x64\Release\moc_mainwindow.obj
+         x64\Release\moc_registerwindow.obj
+         x64\Release\moc_train.obj
+         x64\Release\moc_user.obj
+         x64\Release\loginwindow.obj
+         x64\Release\main.obj
+         x64\Release\mainwindow.obj
+         x64\Release\registerwindow.obj
+         x64\Release\client.obj
+         x64\Release\ticket.obj
+         x64\Release\train.obj
+         x64\Release\user.obj
+         client.vcxproj -> D:\Documents\client\x64\Release\client.exe
+     1>Done Building Project "D:\Documents\client\client\client.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:20.41

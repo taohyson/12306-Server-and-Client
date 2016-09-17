@@ -1,0 +1,7 @@
+select a.trainid,a.Origin,b.Destination,a.StartTime,b.EndTime,a.CarType,(a.StationId<>0),
+(select MAX(StationId) from Train where TrainId=a.TrainId)!=b.StationId
+from train as a,train as b
+where a.Starttime>'2016/09/09 00:00' and a.Starttime<'2016/09/10'
+and a.trainid=b.trainid and a.origin like '上海%' and b.destination like '北京%' 
+order by a.starttime asc
+

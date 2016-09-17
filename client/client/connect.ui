@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>connect</class>
+ <widget class="QWidget" name="connect">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>225</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>400</width>
+    <height>225</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>400</width>
+    <height>225</height>
+   </size>
+  </property>
+  <property name="font">
+   <font>
+    <family>微软雅黑</family>
+    <pointsize>9</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>40</y>
+     <width>241</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>微软雅黑</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+	color : rgba(80,80,80,150);
+}</string>
+   </property>
+   <property name="text">
+    <string>12306++铁路票务系统</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>100</y>
+     <width>80</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>微软雅黑</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+	color : rgba(60,60,60,150);
+}</string>
+   </property>
+   <property name="text">
+    <string>服务器IP</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lIP">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>100</y>
+     <width>111</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>微软雅黑</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit{
+	background: rgba(60,60,60,60);
+	border: 0px;
+	color: white;
+	border-radius:5px;
+	selection-background-color: rgba(40,40,40,60);
+}</string>
+   </property>
+   <property name="text">
+    <string>127.0.0.1</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>130</y>
+     <width>80</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>微软雅黑</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+	color : rgba(60,60,60,150);
+}</string>
+   </property>
+   <property name="text">
+    <string>端口</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bSubmit">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>170</y>
+     <width>81</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>微软雅黑</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	background: rgba(60,60,60,60);
+	border: 0px;
+	color: white;
+	border-radius:5px;
+}</string>
+   </property>
+   <property name="text">
+    <string>连接</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bExit">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>170</y>
+     <width>81</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>微软雅黑</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	background: rgba(60,60,60,60);
+	border: 0px;
+	color: white;
+	border-radius:5px;
+}</string>
+   </property>
+   <property name="text">
+    <string>退出</string>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="sPort">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>130</y>
+     <width>111</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>微软雅黑</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QSpinBox{
+	background: rgba(60,60,60,60);
+	border: 0px;
+	color: white;
+	border-radius:5px;
+	selection-background-color: rgba(40,40,40,60);
+}</string>
+   </property>
+   <property name="maximum">
+    <number>9999</number>
+   </property>
+   <property name="value">
+    <number>1234</number>
+   </property>
+  </widget>
+  <widget class="QLabel" name="background">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>-15</y>
+     <width>530</width>
+     <height>270</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="loginwindow.qrc">:/Resources/train2.gif</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <zorder>background</zorder>
+  <zorder>label</zorder>
+  <zorder>label_2</zorder>
+  <zorder>lIP</zorder>
+  <zorder>label_3</zorder>
+  <zorder>bSubmit</zorder>
+  <zorder>bExit</zorder>
+  <zorder>sPort</zorder>
+ </widget>
+ <resources>
+  <include location="loginwindow.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>bExit</sender>
+   <signal>clicked()</signal>
+   <receiver>connect</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>270</x>
+     <y>194</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>319</x>
+     <y>193</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

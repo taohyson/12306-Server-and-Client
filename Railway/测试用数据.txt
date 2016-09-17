@@ -1,0 +1,12 @@
+QString queryTrain=QStringLiteral("无锡-南京-2016/09/13 00:00-2016/09/13 24:00");
+QString deleteTest=QStringLiteral("cherry-G8-2016/09/09 20:00");
+QString Login=QStringLiteral("cherry979988-password");
+QString UserTicket=QStringLiteral("ticketbought-cherry");
+QString registerUser=QStringLiteral("Wei-c++-董伟-Male-中国-310104198709090000-13141344287-Adult-清华大学");
+QString midStation=QStringLiteral("midstation-G22-2016/09/14 17:28");
+QString payTest=QStringLiteral("pay-cherry979988-100");
+QString updateUserInfo=QStringLiteral("cherry979988-password-叶沁媛-Male-其他国家-31010419970909242X-13141344286-Adult");
+QString buyTicket=QStringLiteral("cherry-测试隔天用车-2016/09/09 23:59-上海-天津-120-0-553");
+QString updateAdminInfo=QStringLiteral("cherry-979988-叶沁媛-13764309717-SuperAdministrator");
+QString addTrain=QStringLiteral("addtrain-T14-2016/09/12 18:00-2016/09/13 12:00-上海-北京-1-1514-0-1-2");
+QString updateTrain=QStringLiteral("updatetraininfo-T11-2016/09/10 00:00-2016/09/10 12:00-上海-北京北-1-1514-0-0-2");

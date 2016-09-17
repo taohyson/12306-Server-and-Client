@@ -1,0 +1,44 @@
+﻿生成启动时间为 2016/9/12 23:34:10。
+     1>项目“E:\TsinghuaCourses\大一暑\c++\大作业\Railway\Railway\Railway.vcxproj”在节点 2 上(Build 个目标)。
+     1>CustomBuild:
+         Moc'ing mytcpserver.h...
+       ClCompile:
+         D:\Program Files (x86)\VS\VC\bin\x86_amd64\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\Qt5.1.0\5.1.0\msvc2012_64_opengl\include /I.\GeneratedFiles\Debug /IC:\Qt\Qt5.1.0\5.1.0\msvc2012_64_opengl\include\QtCore /IC:\Qt\Qt5.1.0\5.1.0\msvc2012_64_opengl\include\QtGui /IC:\Qt\Qt5.1.0\5.1.0\msvc2012_64_opengl\include\QtMultimedia /IC:\Qt\Qt5.1.0\5.1.0\msvc2012_64_opengl\include\QtNetwork /IC:\Qt\Qt5.1.0\5.1.0\msvc2012_64_opengl\include\QtSql /IC:\Qt\Qt5.1.0\5.1.0\msvc2012_64_opengl\include\ActiveQt /IC:\Qt\Qt5.1.0\5.1.0\msvc2012_64_opengl\include\QtPrintSupport /IC:\Qt\Qt5.1.0\5.1.0\msvc2012_64_opengl\include\QtWidgets /IC:\Qt\Qt5.1.0\5.1.0\msvc2012_64_opengl\include\QtOpenGL /Zi /nologo /W1 /WX- /Od /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_MULTIMEDIA_LIB /D QT_NETWORK_LIB /D QT_SQL_LIB /D QAXSERVER /D QT_PRINTSUPPORT_LIB /D QT_WIDGETS_LIB /D QT_OPENGL_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /Gd /TP /errorReport:prompt GeneratedFiles\Debug\moc_mainwindow.cpp GeneratedFiles\Debug\moc_mydatabase.cpp GeneratedFiles\Debug\moc_mytcpserver.cpp Ticket.cpp User.cpp main.cpp mainwindow.cpp mydatabase.cpp mytcpserver.cpp railway.cpp
+         moc_mainwindow.cpp
+         moc_mydatabase.cpp
+         moc_mytcpserver.cpp
+         Ticket.cpp
+         User.cpp
+         main.cpp
+         mainwindow.cpp
+         mydatabase.cpp
+         mytcpserver.cpp
+         railway.cpp
+         正在生成代码...
+     1>e:\tsinghuacourses\大一暑\c++\大作业\railway\railway\mydatabase.cpp(339): warning C4715: “MyDataBase::ticketReturn”: 不是所有的控件路径都返回值
+     1>e:\tsinghuacourses\大一暑\c++\大作业\railway\railway\mydatabase.cpp(791): warning C4715: “MyDataBase::updateTrainInfo”: 不是所有的控件路径都返回值
+       Link:
+         D:\Program Files (x86)\VS\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\TsinghuaCourses\大一暑\c++\大作业\Railway\x64\Debug\\Railway.exe" /NOLOGO /LIBPATH:C:\Qt\Qt5.1.0\5.1.0\msvc2012_64_opengl\lib qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5Multimediad.lib Qt5Networkd.lib Qt5Sqld.lib Qt5AxServerd.lib Qt5AxBased.lib Qt5PrintSupportd.lib Qt5Widgetsd.lib Qt5AxBase.lib Qt5OpenGLd.lib opengl32.lib glu32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\TsinghuaCourses\大一暑\c++\大作业\Railway\x64\Debug\Railway.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\TsinghuaCourses\大一暑\c++\大作业\Railway\x64\Debug\Railway.lib" /MACHINE:X64 x64\Debug\addtext.obj
+         x64\Debug\admin.obj
+         x64\Debug\moc_addtext.obj
+         x64\Debug\moc_mainwindow.obj
+         x64\Debug\moc_mydatabase.obj
+         x64\Debug\moc_mytcpserver.obj
+         x64\Debug\moc_railway.obj
+         x64\Debug\moc_userinfo.obj
+         x64\Debug\qrc_railway.obj
+         x64\Debug\main.obj
+         x64\Debug\mainwindow.obj
+         x64\Debug\mydatabase.obj
+         x64\Debug\mytcpserver.obj
+         x64\Debug\railway.obj
+         x64\Debug\Ticket.obj
+         x64\Debug\Train.obj
+         x64\Debug\User.obj
+         x64\Debug\userinfo.obj
+         Railway.vcxproj -> E:\TsinghuaCourses\大一暑\c++\大作业\Railway\x64\Debug\Railway.exe
+     1>已完成生成项目“E:\TsinghuaCourses\大一暑\c++\大作业\Railway\Railway\Railway.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:28.61

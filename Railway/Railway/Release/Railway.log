@@ -1,0 +1,63 @@
+﻿生成启动时间为 2016/9/12 23:34:59。
+     1>项目“E:\TsinghuaCourses\大一暑\c++\大作业\Railway\Railway\Railway.vcxproj”在节点 2 上(Build 个目标)。
+     1>CustomBuild:
+         Moc'ing railway.h...
+         Uic'ing railway.ui...
+         Moc'ing userinfo.h...
+         Moc'ing mydatabase.h...
+         Moc'ing addtext.h...
+         Moc'ing mytcpserver.h...
+         Moc'ing mainwindow.h...
+         Rcc'ing railway.qrc...
+         Uic'ing mainwindow.ui...
+         Uic'ing addtext.ui...
+         Uic'ing userinfo.ui...
+       ClCompile:
+         D:\Program Files (x86)\VS\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\Qt5.1.0\5.1.0\msvc2012_64_opengl\include /I.\GeneratedFiles\Release /IC:\Qt\Qt5.1.0\5.1.0\msvc2012_64_opengl\include\QtCore /IC:\Qt\Qt5.1.0\5.1.0\msvc2012_64_opengl\include\QtGui /IC:\Qt\Qt5.1.0\5.1.0\msvc2012_64_opengl\include\QtMultimedia /IC:\Qt\Qt5.1.0\5.1.0\msvc2012_64_opengl\include\QtNetwork /IC:\Qt\Qt5.1.0\5.1.0\msvc2012_64_opengl\include\QtSql /IC:\Qt\Qt5.1.0\5.1.0\msvc2012_64_opengl\include\ActiveQt /IC:\Qt\Qt5.1.0\5.1.0\msvc2012_64_opengl\include\QtPrintSupport /IC:\Qt\Qt5.1.0\5.1.0\msvc2012_64_opengl\include\QtWidgets /IC:\Qt\Qt5.1.0\5.1.0\msvc2012_64_opengl\include\QtOpenGL /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_MULTIMEDIA_LIB /D QT_NETWORK_LIB /D QT_SQL_LIB /D QAXSERVER /D QT_PRINTSUPPORT_LIB /D QT_WIDGETS_LIB /D QT_OPENGL_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt addtext.cpp admin.cpp GeneratedFiles\Release\moc_addtext.cpp GeneratedFiles\Release\moc_mainwindow.cpp GeneratedFiles\Release\moc_mydatabase.cpp GeneratedFiles\Release\moc_mytcpserver.cpp GeneratedFiles\Release\moc_railway.cpp GeneratedFiles\Release\moc_userinfo.cpp main.cpp mainwindow.cpp mydatabase.cpp mytcpserver.cpp railway.cpp Ticket.cpp Train.cpp User.cpp userinfo.cpp
+         addtext.cpp
+         admin.cpp
+         moc_addtext.cpp
+         moc_mainwindow.cpp
+         moc_mydatabase.cpp
+         moc_mytcpserver.cpp
+         moc_railway.cpp
+         moc_userinfo.cpp
+         main.cpp
+         mainwindow.cpp
+         mydatabase.cpp
+         mytcpserver.cpp
+         railway.cpp
+         Ticket.cpp
+         Train.cpp
+         User.cpp
+         userinfo.cpp
+         正在生成代码...
+     1>e:\tsinghuacourses\大一暑\c++\大作业\railway\railway\mydatabase.cpp(791): warning C4715: “MyDataBase::updateTrainInfo”: 不是所有的控件路径都返回值
+     1>e:\tsinghuacourses\大一暑\c++\大作业\railway\railway\mydatabase.cpp(339): warning C4715: “MyDataBase::ticketReturn”: 不是所有的控件路径都返回值
+         D:\Program Files (x86)\VS\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\Qt5.1.0\5.1.0\msvc2012_64_opengl\include /I.\GeneratedFiles\Release /IC:\Qt\Qt5.1.0\5.1.0\msvc2012_64_opengl\include\QtCore /IC:\Qt\Qt5.1.0\5.1.0\msvc2012_64_opengl\include\QtGui /IC:\Qt\Qt5.1.0\5.1.0\msvc2012_64_opengl\include\QtMultimedia /IC:\Qt\Qt5.1.0\5.1.0\msvc2012_64_opengl\include\QtNetwork /IC:\Qt\Qt5.1.0\5.1.0\msvc2012_64_opengl\include\QtSql /IC:\Qt\Qt5.1.0\5.1.0\msvc2012_64_opengl\include\ActiveQt /IC:\Qt\Qt5.1.0\5.1.0\msvc2012_64_opengl\include\QtPrintSupport /IC:\Qt\Qt5.1.0\5.1.0\msvc2012_64_opengl\include\QtWidgets /IC:\Qt\Qt5.1.0\5.1.0\msvc2012_64_opengl\include\QtOpenGL /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_MULTIMEDIA_LIB /D QT_NETWORK_LIB /D QT_SQL_LIB /D QAXSERVER /D QT_PRINTSUPPORT_LIB /D QT_WIDGETS_LIB /D QT_OPENGL_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\qrc_railway.cpp
+         qrc_railway.cpp
+       Link:
+         D:\Program Files (x86)\VS\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\TsinghuaCourses\大一暑\c++\大作业\Railway\Win32\Release\\Railway.exe" /NOLOGO /LIBPATH:C:\Qt\Qt5.1.0\5.1.0\msvc2012_64_opengl\lib qtmain.lib Qt5Core.lib Qt5Gui.lib Qt5Multimedia.lib Qt5Network.lib Qt5Sql.lib Qt5AxServer.lib Qt5AxBase.lib Qt5PrintSupport.lib Qt5Widgets.lib Qt5OpenGL.lib opengl32.lib glu32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"E:\TsinghuaCourses\大一暑\c++\大作业\Railway\Win32\Release\Railway.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\TsinghuaCourses\大一暑\c++\大作业\Railway\Win32\Release\Railway.lib" /MACHINE:X86 /SAFESEH Release\addtext.obj
+         Release\admin.obj
+         Release\qrc_railway.obj
+         Release\moc_addtext.obj
+         Release\moc_mainwindow.obj
+         Release\moc_mydatabase.obj
+         Release\moc_mytcpserver.obj
+         Release\moc_railway.obj
+         Release\moc_userinfo.obj
+         Release\main.obj
+         Release\mainwindow.obj
+         Release\mydatabase.obj
+         Release\mytcpserver.obj
+         Release\railway.obj
+         Release\Ticket.obj
+         Release\Train.obj
+         Release\User.obj
+         Release\userinfo.obj
+     1>Qt5Core.lib(Qt5Core.dll) : fatal error LNK1112: 模块计算机类型“x64”与目标计算机类型“X86”冲突
+     1>已完成生成项目“E:\TsinghuaCourses\大一暑\c++\大作业\Railway\Railway\Railway.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:42.90
