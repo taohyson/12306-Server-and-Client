@@ -25,3 +25,9 @@ MinGW+Qt5.7.0
 ![客户端登录界面](http://i.imgur.com/XW7gh8w.jpg)
 ![](http://i.imgur.com/poB6skv.jpg)
 ![](http://i.imgur.com/bU6qb9x.jpg)
+
+### Contributors
+- DavidYQY
+- cherry979988
+
+2016/9/17 11:12:15 
